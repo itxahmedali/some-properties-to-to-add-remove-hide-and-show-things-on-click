@@ -1,0 +1,21 @@
+javascript (Jquery)
+to print something again or new in div or in section on click we can use .append property 
+$('#add-refer-fuel-btn').on('click', () => {
+            $('#add-refer-fuel-card .add-refer-fuel-card-sec').append(`
+                            `);
+})
+
+-----------------------------------------------------------------------------------------
+and to remove that append part from that div or from another div or from that section or from another section we use .removw property
+$('#remove-refer-fuel-expense-btn').click(function() {
+                $('.added-refer-fuel-expense-card').remove();
+                $('#add-refer-fuel-btn').show();
+});
+
+-----------------------------------------------------------------------------------------
+and to show or hide something on click we use .show and .hide property 
+ $('#add-refer-fuel-btn').click(function() {
+            $(this).hide();
+            $(".className or #idName").show();
+});
+-----------------------------------------------------------------------------------------
