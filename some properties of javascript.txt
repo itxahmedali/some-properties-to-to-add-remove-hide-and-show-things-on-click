@@ -19,3 +19,10 @@ and to show or hide something on click we use .show and .hide property
             $(".className or #idName").show();
 });
 -----------------------------------------------------------------------------------------
+this function is to remove or to delete specific appended item for example if we want to delete single appended from many appended cards we use parentNode
+
+    // for delete appended cards
+        $(document).on('click','.fa-minus-circle',function(e){
+    e.target.parentNode.parentNode.remove();
+})
+-----------------------------------------------------------------------------------------
